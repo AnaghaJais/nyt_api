@@ -5,6 +5,11 @@ body {
 .container {
     position: relative;
 }
+
+
+
+
+/*-----------------------  HEADER SECTION  -----------------------*/
 #header {
     height: 100px;
     background-color: black;
@@ -14,8 +19,16 @@ h1 {
     font-size: 3em;
     color: white;   
 }
-.fa-newspaper-o {
-    height: 30px;
+
+
+
+
+/*-----------------------  PARAMETER SECTION  -----------------------*/
+h3 {
+    font-size: 1.2em;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
 }
 #search-button {
     position: relative;
@@ -26,3 +39,15 @@ h1 {
     position: relative;
     float: left;
 }
+i {
+    padding-right: 20px;
+
+}
+select {
+    width: 100%;
+}
+/*
+#article-header {
+    background-color: black;
+    height: 30px;
+}*/
