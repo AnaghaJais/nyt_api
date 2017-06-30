@@ -5,6 +5,8 @@
 		<title>NYT News Search</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/bulma.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
@@ -14,15 +16,50 @@
         <div class="container">
             
             <div class="columns">
-                <div class="column" align="center">
-                    <h1>NYTimes News Search</h1>
+                <div id="header" class="column" align="center">
+                    <h1><i class="fa fa-newspaper-o fa-5x" aria-hidden="true"></i>NYTimes News Search</h1>
                 </div>
             </div>
             
             <div class="columns">
-                <div class="column" align="center">
-                    
-                </div>
+                 
+                <div class="column" >
+                    <div class="field">
+                        <label class="label">Search Term</label>
+                        <p class="control">
+                            <input class="input" type="text" placeholder="Text input">
+                        </p>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Number of Records to Retrieve</label>
+                        <p class="control">
+                            <input class="input" type="text" placeholder="Text input">
+                        </p>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Start Year (Optional)</label>
+                        <p class="control">
+                            <input class="input" type="text" placeholder="Text input">
+                        </p>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">End Year (Optional)</label>
+                        <p class="control">
+                            <input class="input" type="text" placeholder="Text input">
+                        </p>
+                    </div>
+
+                    <div id="search-button" class="block">
+                        <a class="button">Search</a>
+                    </div>
+                    <div id="clear-button" class="block">
+                        <a class="button">Clear Results</a>
+                    </div>
+                </div>    
+                
             </div>
             
             <div class="columns">

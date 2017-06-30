@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.container {
+    position: relative;
+}
+#header {
+    height: 100px;
+    background-color: black;
+    margin-bottom: 40px;
+}
+h1 {
+    font-size: 3em;
+    color: white;   
+}
+.fa-newspaper-o {
+    height: 30px;
+}
+#search-button {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+#clear-button {
+    position: relative;
+    float: left;
+}
