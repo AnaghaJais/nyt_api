@@ -1,1 +1,1 @@
-var something = 0;
+var something = 10;
