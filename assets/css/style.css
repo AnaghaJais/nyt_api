@@ -14,6 +14,10 @@ h1 {
     font-size: 3em;
     color: white;   
 }
+h3 {
+    font-size: 1.5em;
+    color: white;   
+}
 .fa-newspaper-o {
     height: 30px;
 }
@@ -25,4 +29,8 @@ h1 {
 #clear-button {
     position: relative;
     float: left;
+}
+#article-header {
+    background-color: black;
+    height: 50px;
 }
