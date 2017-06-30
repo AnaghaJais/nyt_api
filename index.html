@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="en-us">
+	<head>
+		<title>NYT News Search</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+
+	<body>
+
+        <div class="container">
+            
+            <div class="columns">
+                <div id="header" class="column" align="center">
+                    <h1><i class="fa fa-newspaper-o icon is-large" aria-hidden="true"></i>NYTimes News Search</h1>
+                </div>
+            </div>
+            
+            <div class="columns">
+                 
+                <div class="column" >
+                    <div class="field">
+                        <label class="label">Search Term</label>
+                        <p class="control">
+                            <input id="search-term" class="input" type="text" placeholder="Text input">
+                        </p>
+                    </div>
+
+                    <div class="field">
+<!--
+                        <label class="label">Number of Records to Retrieve</label>
+                        <p class="control">
+                            <input class="input" type="text" placeholder="Text input">
+                        </p>
+-->
+                        
+                        <div class="field">
+                          <label class="label">Subject</label>
+                          <p class="control">
+                            <span class="select">
+                              <select id="num-record">
+                                <option>Select dropdown</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                              </select>
+                            </span>
+                          </p>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    
+
+                    <div class="field">
+                        <label class="label">Start Year (Optional)</label>
+                        <p class="control">
+                            <input id="start-year" class="input" type="text" placeholder="Text input">
+                        </p>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">End Year (Optional)</label>
+                        <p class="control">
+                            <input id="end-year" class="input" type="text" placeholder="Text input">
+                        </p>
+                    </div>
+
+                    <div id="search-button" class="block">
+                        <a class="button">Search</a>
+                    </div>
+                    <div id="clear-button" class="block">
+                        <a class="button">Clear Results</a>
+                    </div>
+                </div>    
+                
+            </div>
+            
+            <div class="columns">
+                <div id="article-header" class="column" align="left">
+                    <h3><span class="icon is-small is-left"><i class="fa fa-search" aria-hidden="true"></i></span>Top Articles</h3>
+                </div>
+                <div id="article-display"></div>
+            </div>
+        
+        </div>  <!----------------  END OF CONTAINER  ---------------->
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/js/nytapi.js"></script>
+	</body>
+</html>
